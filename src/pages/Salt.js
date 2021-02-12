@@ -120,19 +120,20 @@ The main exhibition hall contains a collection of pottery from Tuleilat Ghassul,
          
              </div></div>
               <div className="container">
-             <form className="form1" action="mailto:ansam.hiary@gmail.com" method="post">
-             <h4 style={{color: "brown"}}>If you want to go on our trips, please register your information to help you more</h4>
+                   <form className="form1" action="mailto:ansam.hiary@gmail.com" method="post" enctype="text/plain">
+             <h4 style={{color: "brown"}}>If you want to go on our trips, please Send your information to help you more</h4>
   <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="text" name="mail" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div className="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" className="form-control" placeholder="Name"/>
-  </div>
- 
-  <button type="submit" className="btn btn-dark">Submit</button>
+    <input  type="text" name="name" className="form-control" placeholder="Name"/>
+  </div><br/>
+ <label for="exampleInputPassword1">Where do you want to go</label><br/>
+<input type="text" name="Place" className="form-control" placeholder="Place"/><br/><br/>
+  <button type="submit" className="btn btn-dark" value="Send">Submit</button>
 </form></div>
                    <div className="divhome">
    
